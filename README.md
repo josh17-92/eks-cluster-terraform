@@ -1,5 +1,5 @@
 # terraform-eks
-I'm using modules to create an EKS cluster on AWS using Terraform.
+I'm using modules to create an EKS cluster on AWS using Terraform. [Please note that creating these services will incur charges on your AWS billing account.]
 
 ### Install AWS CLI 
 
