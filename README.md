@@ -36,3 +36,4 @@ Run `terraform apply` and Terraform will start configuring your services on AWS
 ### NOTE
 
 Always go through the Terraform documentation, as some modules might be updated and some arguments could be unsupported or deprecated
+# eks-cluster-terraform
