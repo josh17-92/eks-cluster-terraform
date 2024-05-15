@@ -1,5 +1,5 @@
 # terraform-eks
-I'm using modules to create EKS cluster on AWS using Terraform.
+I'm using modules to create an EKS cluster on AWS using Terraform.
 
 ### Install AWS CLI 
 
@@ -19,17 +19,17 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 ### Connect Terraform with AWS
 
-Its very easy to connect Terraform with AWS. Run `aws configure` command and provide the AWS Security credentials (I recommend to store your credentials on a Vault)
+It's very easy to connect Terraform with AWS. Run `aws configure` command and provide the AWS Security credentials (I recommend storing your credentials on a Vault)
 
 ### Initialize Terraform
 
-Clone the repository and Run `terraform init`. This will intialize the terraform environment for you and download the modules, providers and other configuration required.
+Clone the repository and Run `terraform init`. This will initialize the terraform environment and download the required modules, providers, and other configurations.
 
 ### Optionally review the terraform configuration
 
 Run `terraform plan` to see the configuration it creates when executed.
 
-### Finally, Apply terraform configuration to create EKS cluster with VPC 
+### Finally, Apply terraform configuration to create an EKS cluster with VPC 
 
 Run `terraform apply` and Terraform will start configuring your services on AWS
 
